@@ -18,14 +18,7 @@ const parseCode = (strr) => {
 	return obj;
 };
 
-parseCode("John000Doe000123");
-// returns { firstName: "John", lastName: "Doe", id: "123" }
 
-parseCode("michael0smith004331");
-// returns { firstName: "michael", lastName: "smith", id: "4331" }
-
-parseCode("Thomas00LEE0000043");    
-// returns { firstName: "Thomas", lastName: "LEE", id: "43" }
 // Do not change the code below
-// const str = prompt("Enter str: ");
-// alert(JSON.stringify(parseCode(str)));
+const str = prompt("Enter str: ");
+alert(JSON.stringify(parseCode(str)));
